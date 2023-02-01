@@ -6,17 +6,17 @@ function Statistics({ good, neutral, bad, total, positivePercentage }) {
     <ul>
       <li className={css.item}>
         <p className={css.text}>
-          Good: <span className={css.value}>{good}</span>
+          Слава ЗСУ: <span className={css.value}>{good}</span>
         </p>
       </li>
       <li className={css.item}>
         <p className={css.text}>
-          Neutral: <span className={css.value}>{neutral}</span>
+          Слава Україні: <span className={css.value}>{neutral}</span>
         </p>
       </li>
       <li className={css.item}>
         <p className={css.text}>
-          Bad: <span className={css.value}>{bad}</span>
+          хутін Пуйло: <span className={css.value}>{bad}</span>
         </p>
       </li>
       <li className={css.item}>
