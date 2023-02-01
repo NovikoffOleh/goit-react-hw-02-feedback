@@ -47,14 +47,14 @@ class App extends Component {
     return (
       <div className={css.container}>
         <div className={css.wrapper}>
-          <Section title="Please leave feedback">
+          <Section title="Залиште свій відгук">
             <FeedbackOptions
               options={options}
               onLeaveFeedback={handleClickButton}
             />
           </Section>
 
-          <Section title="Statistics">
+          <Section title="Статистика">
             {countTotalFeedback > 0 ? (
               <Statistics
                 good={good}
@@ -64,7 +64,7 @@ class App extends Component {
                 positivePercentage={countPositiveFeedbackPercentage}
               />
             ) : (
-              <Notification message="There is no feedback" />
+              <Notification message="Жодних відгуків" />
             )}
           </Section>
         </div>

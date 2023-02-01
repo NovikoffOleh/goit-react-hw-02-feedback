@@ -11,7 +11,7 @@ function Statistics({ good, neutral, bad, total, positivePercentage }) {
       </li>
       <li className={css.item}>
         <p className={css.text}>
-          Слава Україні: <span className={css.value}>{neutral}</span>
+          Підтримка Афріки: <span className={css.value}>{neutral}</span>
         </p>
       </li>
       <li className={css.item}>
@@ -21,12 +21,12 @@ function Statistics({ good, neutral, bad, total, positivePercentage }) {
       </li>
       <li className={css.item}>
         <p className={css.text}>
-          Total: <span className={css.value}>{total}</span>
+          Разом: <span className={css.value}>{total}</span>
         </p>
       </li>
       <li className={css.item}>
         <p className={css.text}>
-          Positive feedback:
+          Загальний відгук:
           <span className={css.value}>{positivePercentage}</span>
         </p>
       </li>
